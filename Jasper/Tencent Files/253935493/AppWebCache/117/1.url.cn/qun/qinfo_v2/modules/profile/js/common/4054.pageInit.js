@@ -1,1 +1,0 @@
-document.oncontextmenu=function(){return false};if(window.external&&false in window.external)var login_timer=setInterval(function(){$.get("/cgi-bin/qun_search/refresh_login?"+Math.random(),{},function(a){a.ec!=0&&clearInterval(login_timer)})},36E5);

@@ -1,1 +1,0 @@
-(function(a,b){typeof define==="function"&&define.amd?define([],b):a.TRecord=b(a.TRecord)})(this,function(a){a=a||window.TRecord;a.getInterval=function(a,c,d){return!this[c]||!this[a]?"":"&"+d+"="+(this[c]-this[a])};return a});

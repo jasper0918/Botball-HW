@@ -1,1 +1,0 @@
-(function(a,b){typeof define==="function"&&define.amd?define(["modules/common/js/db"],b):a.DB=b(a.DB)})(this,function(a){a.genSampleAPI("get_group_more_info","qun_info/get_group_more_info");a.genSampleAPI("nicks","qun_info/nicks");return a});
