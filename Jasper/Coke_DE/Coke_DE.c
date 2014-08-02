@@ -58,8 +58,8 @@ int main()
 	//turn cube
 	clear_motor_position_counter(2);
 	clear_motor_position_counter(3);
-	mtp(2, 880, 300);
-	mtp(3, 1000, -325);
+	mtp(2, 880, 1800);
+	mtp(3, 1000, 1800);
 	bmd(2);
 	bmd(3);
 	test();
