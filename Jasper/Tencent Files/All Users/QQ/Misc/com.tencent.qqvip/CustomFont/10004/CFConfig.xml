@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>  
+      <CFConfigInfo Ver = "1" UpdateSign = "1" CFID = "2024" CFName = "闪电文字" CFPreviewName = "2024_Preview" CF_Cx = "21" CF_Cy = "24" CFType = "Tpye_Alpha"/>                                                                 
+      <CFBackgroundList  nFrame = "3" nElapse = "700" CycNum = "1">
+          <Frame Pic0 = "shandian15a.png" Pic1 = "shandian15b.png" Pic2 = "shandian15c.png" />
+          <Frame Pic0 = "shandian15d.png" Pic1 = "shandian15e.png" Pic2 = "shandian15f.png" />
+          <Frame Pic0 = "shandian15g.png" Pic1 = "shandian15h.png" Pic2 = "shandian15i.png" />
+      </CFBackgroundList>
+      <CFList nFrame = "3"  nElapse = "700" CycNum = "1" CycPos = "1">
+          <Frame FontType = "黑体" CFSize = "15" IsBold = "1" COLORREF0 = "000000" CFPostion0 = "0_4" />
+          <Frame FontType = "黑体" CFSize = "15" IsBold = "1" COLORREF0 = "000000" CFPostion0 = "0_4" />
+          <Frame FontType = "黑体" CFSize = "15" IsBold = "1" COLORREF0 = "000000" CFPostion0 = "0_4" />
+      </CFList>  
+</root>

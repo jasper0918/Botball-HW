@@ -1,0 +1,4 @@
+﻿<?xml version = "1.0" encoding = "utf-8"?><root><CFConfigInfo Ver = "1" UpdateSign = "1" CFID = "7" CFName = "地雷字体" CFPreviewName = "alidl_Preview" CF_Cx = "28" CF_Cy = "38" CFType = "Tpye_Normal"/> <CFBackgroundList nFrame = "2" nElapse = "700" CycNum = "1"> <Frame  Pic0 = "ali01.png"  /><Frame  Pic0 = "ali02.png"  /> <Frame  Pic0 = "ali03.png"  /></CFBackgroundList> <CFList nFrame = "3"  nElapse = "400" CycNum = "1" CycPos = "1">
+<Frame FontType = "微软雅黑" CFSize = "10" IsBold = "1"   CFPostion0 = "7_14"    COLORREF0 = "ffffff"  />
+<Frame FontType = "微软雅黑" CFSize = "10" IsBold = "1"   CFPostion0 = "7_14"    COLORREF0 = "ffffff"  /> 
+<Frame FontType = "微软雅黑" CFSize = "10" IsBold = "1"   CFPostion0 = "7_14"    COLORREF0 = "ffffff"  /> </CFList></root>

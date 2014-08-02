@@ -1,0 +1,43 @@
+<div class="member-container js-member-container has-grade no-member-tag">
+    <div class="toolbar">
+        <button id="add-member" class="js-add-member" tabindex="0">添加成员</button>
+        <button id="modify-name" class="js-modify-name modify-name" tabindex="0">修改群名片</button>
+        <a href="#" target="blank" id="advMemberManage">高级管理</a>
+        <!--
+        <a id="batch-modify" class="" role="button" href="javascript:void(0);" tabindex="0">批量管理</a>
+        <button id="batch-del-member" tabindex="0">删除成员</button>
+        <button id="edit-member-tag" class="js-edit-member-tag edit-member-tag" tabindex="0">改成员标签</button>
+        <a id="exit-batch-modify" class="" role="button" href="javascript:void(0);" tabindex="0">退出批量管理</a>
+        -->
+
+        <p class="js-admin-word">
+            管理员：<span id="cur-admin-num">&nbsp;</span>/<span id="total">&nbsp;</span>人
+            <a class="admin-detail"  aria-label="详情" title="详情" href="http://kf.qq.com/faq/120322fu63YV130422yeIR7v.html" target="_blank" tabIndex="-1"><img src="http://3.url.cn/qun/qinfo_v2/modules/member/modules/member/img/admindetail.png"></a>
+            <span id="admin-operation-record" style="display:none">
+                <a id="show-operation-record" role="button" href="javascript: void (0)"  tabindex="0" >管理员操作记录</a>
+            </span>
+            <span id="black-member-ct">
+                <a id="black-member-list" role="button" href="javascript: void (0)"  tabindex="0" > 不良记录成员(<span class="count">0</span>)</a>
+                <a class="admin-detail"  aria-label="不良记录成员是什么?" title="不良记录成员是什么?" href="http://kf.qq.com/faq/120511jiYzIJ140103yi6vQr.html" target="_blank" tabIndex="-1"><img src="http://3.url.cn/qun/qinfo_v2/modules/member/modules/member/img/admindetail.png"></a>
+            </span>
+        </p>
+        <p tabIndex="0" class="element-invisible" id="admin-notice"></p>
+    </div>
+    <div id="block-member-toolbar" class="toolbar">
+        <button id="back-normal-member-list" aria-label="返回查看全部成员列表" tabindex="0" >返回</button> <p>以下成员近期多次被其他群举报或清理</p>
+    </div>
+    <div class="member-list">
+        <ul class="member-nav">
+            <li data-sq="role" tabIndex="0" aria-label="按管理权限排序" class="member-nav-role"><span class="desc ">&nbsp;</span></li>
+            <li data-sq="nick" tabIndex="0" aria-label="按成员昵称排序" class="member-nav-nick"><span>成员</span></li>
+            <li data-sq="card" tabIndex="0" aria-label="按群名片排序" class="member-nav-card"><span>群名片</span></li>
+            <li data-sq="tag" tabIndex="0" aria-label="按群标签排序" class="member-nav-tag"><span>标签</span>&nbsp;<u id="memTagEditor" aria-label="编辑成员标签" tabIndex="0">&nbsp;</u></li>
+            <li data-sq="gradeName" class="member-nav-grade-name"><span class="member-nav-grade-name-wording">等级</span>&nbsp;<u id="gradeEditor" aria-label="编辑等级头衔" tabIndex="0">&nbsp;</u>&nbsp;<span class="gradeHelp" id="gradeHelp" title="等级规则">&nbsp;&nbsp;&nbsp;</span></li>
+            <li data-sq="points" tabIndex="0" aria-label="按群成员等级积分排序" class="member-nav-grade-point"><span>等级积分</span></li>
+            <li data-sq="last-talk" tabIndex="0" aria-label="按最后发言时间排序" class="member-nav-last-talk"><span>最后发言</span></li>
+        </ul>
+        <div id="members-wrapper" class="wrapper">
+            <div id="members"></div>
+        </div>
+    </div>
+</div>

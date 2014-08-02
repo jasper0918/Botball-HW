@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>SOSOMap</title>
+<script type="text/javascript">
+	document.domain = 'qq.com';
+</script>
+<link rel="stylesheet" href="http://1.url.cn/qun/profile_webkit/css/10/map.css">
+</head>
+<body>
+<div class="wrap" id="wrap" style="padding-bottom:6px;">
+		
+	<div class="outer">
+
+		<div class="step" id="step">
+			<span class="bg comm-bg"></span>
+			<span class="one">1.拖动地图找位置</span>
+			<span class="two">2.点击地图选地点</span>
+			<span class="three">3.选择并保存地点</span>
+		</div>
+		<div class="close-bg">
+			<a id="close" class="close comm-bg" href="#"></a>
+		</div>
+		<div id="inner" class="inner">
+
+			<div id="container" class="main"></div>
+
+			<div id="city_control" class="city-control" style="display:none;">
+				<div class="city-title"><a href="##" data-level='country'>中国</a></div>
+				<div class="city-list"></div>
+				<div class="city-list"></div>
+			</div>
+
+			<div id="rs_pnl" class="search-pnl">
+				<div class="pnl-wrap">
+					<div class="nav">
+						<ul id="catelog" class="catelog">
+							<li><a href="#" hidefocus class="ly" data-idx="ly">楼宇</a></li>
+							<li><a href="#" hidefocus class="sh" data-idx="sh">生活</a></li>
+							<li><a href="#" hidefocus class="ggfw special"  data-idx="ggfw">公共服务</a></li>
+							<li><a href="#" hidefocus class="ms"  data-idx="ms">美食</a></li>
+						</ul>
+					</div>
+					<div id="loc-list" class="loc-list">
+						<div id="ly" class="page">
+							<div class="cover"></div>
+						</div>
+						<div id="sh" class="page">
+							<div class="cover"></div>
+						</div>
+						<div id="ggfw" class="page">
+							<div class="cover"></div>
+						</div>
+						<div id="ms" class="page">
+							<div class="cover"></div>
+						</div>
+					</div>
+					<div class="bottom-bar">
+						<a href="##" class="save disable comm-bg">保存地点</a>
+						<a href="##" class="cancel comm-bg">重新定位</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="http://1.url.cn/b/js/4/simple.js"></script>
+<script src="http://api.map.soso.com/v1.0/main.js"></script>
+
+<script src="http://1.url.cn/qun/qinfo_v2/modules/profile/js/2eb3.map.js"></script>
+
+</body>
+</html>

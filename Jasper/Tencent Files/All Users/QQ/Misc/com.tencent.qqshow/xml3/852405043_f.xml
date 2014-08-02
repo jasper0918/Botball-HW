@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<flash_show_info>
+ <user uin="852405043" ts="1355270239" />
+ <client burl="./flashshow2" tmo="150" trans="on" turl="http://jump.qq.com/clienturl_254" />
+ <message hasNewMsg="true">
+  <number>16</number>
+  <showreason>0</showreason>
+ </message>
+ <item lyr="1100" flyr="1100" typ="ownermsg">
+  <file t="2" typ="swf" url="18" id="5000018" ts="1341830010" x="0.00" y="40.00" rot="0" scale="100" rev="0" />
+ </item>
+ <activity actid="2009" user_flag1="1" system_flag2="1" extra_int="0" vars="0|1323964800|817833600|0|0" />
+ <item lyr="1450" flyr="1450" typ="birthdaytip">
+  <file t="2" typ="swf" url="0" id="1000000" ts="1333596600" x="0.00" y="0.00" rot="0" scale="100" rev="0" />
+ </item>
+ <item lyr="9000" flyr="9000" typ="tabs">
+  <file t="2" typ="swf" url="0" id="1000000" ts="1348144695" x="-300.00" y="0.00" rot="0" scale="100" rev="0" />
+ </item>
+ <item lyr="9001" flyr="9001" typ="tabs">
+  <file t="2" typ="swf" url="0" id="1000000" ts="1352704865" x="0.00" y="0.00" rot="0" scale="100" rev="0" />
+ </item>
+ <item lyr="1240" flyr="1240" typ="sharegifts">
+  <file t="2" typ="swf" url="0" id="1000000" ts="1316516467" x="0.00" y="0.00" rot="0" scale="100" rev="0" vars="1" />
+ </item>
+ <item lyr="1210" flyr="1210" typ="activescore">
+  <file t="2" typ="swf" url="0" id="1000000" ts="1319095367" x="0.00" y="0.00" rot="0" scale="100" rev="0" vars="0" />
+ </item>
+ <item lyr="1400" flyr="1400" typ="presentshow">
+  <file t="2" typ="swf" url="0" id="1000000" ts="1345537067" x="0.00" y="0.00" rot="0" scale="100" rev="0" />
+ </item>
+ <item lyr="1200" flyr="1200" typ="btnsbar">
+  <file t="2" typ="swf" url="0" id="1000000" ts="1351654243" x="0.00" y="0.00" rot="0" scale="100" rev="0" vars="0|0|0|0|0|0|0|1|0|0" />
+ </item>
+ <item lyr="2000" flyr="2000" typ="animationfornew">
+  <file t="2" typ="swf" url="0" id="1000000" ts="1343983021" x="0.00" y="0.00" rot="0" scale="100" rev="0" vars="0|0" />
+ </item>
+ <item lyr="1222" flyr="1222" typ="rdlevel">
+  <file t="2" typ="swf" url="19" id="5000019" ts="1345537122" x="0.00" y="0.00" rot="0" scale="100" rev="0" vars="0|1||0|0|0|0" />
+ </item>
+ <item lyr="11100" flyr="11100" typ="ownermsg" ver="1">
+  <file t="2" typ="swf" url="18" id="5000018" ts="1350615058" x="0.00" y="40.00" rot="0" scale="100" rev="0" />
+ </item>
+ <item lyr="11450" flyr="11450" typ="birthdaytip" ver="1">
+  <file t="2" typ="swf" url="0" id="1000000" ts="1347363470" x="0.00" y="0.00" rot="0" scale="100" rev="0" />
+ </item>
+ <item lyr="19000" flyr="19000" typ="tabs" ver="1">
+  <file t="2" typ="swf" url="0" id="1000000" ts="1347243465" x="-300.00" y="0.00" rot="0" scale="100" rev="0" />
+ </item>
+ <item lyr="11240" flyr="11240" typ="sharegifts" ver="1">
+  <file t="2" typ="swf" url="0" id="1000000" ts="1348134833" x="0.00" y="0.00" rot="0" scale="100" rev="0" vars="1" />
+ </item>
+ <item lyr="11210" flyr="11210" typ="activescore" ver="1">
+  <file t="2" typ="swf" url="0" id="1000000" ts="1347363469" x="0.00" y="0.00" rot="0" scale="100" rev="0" vars="0" />
+ </item>
+ <item lyr="11400" flyr="11400" typ="presentshow" ver="1">
+  <file t="2" typ="swf" url="0" id="1000000" ts="1347243465" x="0.00" y="0.00" rot="0" scale="100" rev="0" />
+ </item>
+ <item lyr="11200" flyr="11200" typ="btnsbar" ver="1">
+  <file t="2" typ="swf" url="0" id="1000000" ts="1354502243" x="0.00" y="0.00" rot="0" scale="100" rev="0" vars="0|0|0|0|0|0|0|1|0|0" />
+ </item>
+ <item lyr="12000" flyr="12000" typ="animationfornew" ver="1">
+  <file t="2" typ="swf" url="0" id="1000000" ts="1347363470" x="0.00" y="0.00" rot="0" scale="100" rev="0" vars="0|0" />
+ </item>
+ <item lyr="11222" flyr="11222" typ="rdlevel" ver="1">
+  <file t="2" typ="swf" url="19" id="5000019" ts="1353056622" x="0.00" y="0.00" rot="0" scale="100" rev="0" vars="0|1||0|0|0|0" />
+ </item>
+</flash_show_info>

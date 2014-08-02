@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>  
+      <CFConfigInfo Ver = "1" UpdateSign = "1" CFID = "2020" CFName = "粉色文字" CFPreviewName = "2020_Preview" CF_Cx = "20" CF_Cy = "22" CFType = "Tpye_Alpha"/>                                                                 
+      <CFBackgroundList nFrame = "2" nElapse = "700" CycNum = "1">
+        <Frame Pic0 = "png1.png"/>
+        <Frame Pic0 = "png2.png"/>
+      </CFBackgroundList>
+      <CFList nFrame = "2"  nElapse = "700" CycNum = "1" CycPos = "1">
+          <Frame FontType = "宋体" CFSize = "12" IsBold = "1" CFPostion0 = "3_5" COLORREF0 = "140a90" />
+          <Frame FontType = "宋体" CFSize = "12" IsBold = "1" CFPostion0 = "3_5" COLORREF0 = "140a90" />
+      </CFList>
+</root>
+

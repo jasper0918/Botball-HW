@@ -1,0 +1,55 @@
+<div class="group_level_inner">
+    <div class="group_level_wrap">
+	<div class="group_level_header">
+		<div id="group_level_loading" class="group_level_loading">加载中...</div>
+		<div class="group_level" id="group_level_cur">本群等级：<span class="icon" id="group_level_icon"></span></div>
+		<div id="group_level_inactive" class="group_level_desc">(由于本群资料完整度不够，暂无法点亮等级图标)</div>
+		<div id="group_level_active" class="group_level_desc">(群成员数为<span id="group_level_mem_num"></span>人，活跃成员数达<span id="group_level_active_num"></span>人，占总比<span id="group_level_active_ratio"></span>)</div>
+	</div>
+	<h3 class="group_level_title">等级规则</h3>
+	<table class="rule_table">
+		<tr>
+			<th class="level_num">等级</th>
+			<th class="level_icon">等级图标</th>
+			<th class="level_condition">条件</th>
+		</tr>
+		<tr><!-- lv 1 -->
+			<td class="level_num">LV1</td>
+			<td class="level_icon"><span class="icon level_1 group_level_icon_1"></span></td>
+			<td class="level_condition">
+				<ol class="level_list">
+					<li>完整填写群资料，上传自定义群头像，标签不少于1个，简介不少于30个字</li>
+					<li>群内相片数不少于3张，文件不少于2个<span id="group_level_open_hint" style="display:none;">，且允许游客在资料卡查看摘要</span><a href="javascript:void(0)" class="set_open js_set_open" style="display:none;">(<span>立即设置</span>)</a></li>
+				</ol>
+			</td>
+		</tr>
+		<tr><!-- lv 2-->
+			<td class="level_num">LV2</td>
+			<td class="level_icon"><span class="icon level_2 group_level_icon_2"></span></td>
+			<td class="level_condition">群人数>50，发言人数20以上</td>
+		</tr>
+		<tr><!-- lv 3-->
+			<td class="level_num">LV3</td>
+			<td class="level_icon"><span class="icon level_3 group_level_icon_3"></span></td>
+			<td class="level_condition">群人数>100，发言人数40以上</td>
+		</tr>
+		<tr><!-- lv 4-->
+			<td class="level_num">LV4</td>
+			<td class="level_icon"><span class="icon level_4 group_level_icon_4"></span></td>
+			<td class="level_condition">群人数>200，发言人数80以上</td>
+		</tr>
+		<tr><!-- lv 5-->
+			<td class="level_num">LV5</td>
+			<td class="level_icon"><span class="icon level_5 group_level_icon_5"></span></td>
+			<td class="level_condition">群人数>400，发言人数120以上</td>
+		</tr>
+	</table>
+	<h3 class="level_desc_title">等级特权说明</h3>
+	<ol class="list">
+		<li>群等级越高，该群在搜索结果中的排名越靠前</li>
+		<li>群被举报或加群通过率低，有可能群等级会被降低</li>
+		<li>群等级计算过去30天的数据，且每天刷新一次</li>
+	</ol>
+    </div>
+	<a class="close js_close" href="javascript:void(0)" title="关闭"></a>
+</div>	

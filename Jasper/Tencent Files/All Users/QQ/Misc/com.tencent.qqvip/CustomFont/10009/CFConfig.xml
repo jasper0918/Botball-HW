@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>  
+      <CFConfigInfo Ver = "1" UpdateSign = "1" CFID = "2008" CFName = "气球字体" CFPreviewName = "2008_Preview" CF_Cx = "23" CF_Cy = "51" CFType = "Tpye_Normal"/>                                                                 
+      <CFBackgroundList nFrame = "2" nElapse = "700" CycNum = "3">
+          <Frame Pic0 = "png1.png" Pic1 = "png2.png" Pic2 = "png3.png"/>
+          <Frame Pic0 = "png1.png" Pic1 = "png2.png" Pic2 = "png3.png"/>
+      </CFBackgroundList>
+      <CFList nFrame = "2"  nElapse = "700" CycNum = "3" CycPos = "1">
+          <Frame FontType = "微软雅黑" CFSize = "9" IsBold = "1" CFPostion0 = "6_4" COLORREF0 = "000000" />
+          <Frame FontType = "微软雅黑" CFSize = "9" IsBold = "1" CFPostion0 = "6_4" COLORREF0 = "43476F" />
+      </CFList>
+</root>
+

@@ -1,0 +1,1 @@
+define(["commonapi"],function(b){return{useVersionCtrl:true,openMemTagWin:function(a){b.groupPopNewWebPage(310,340,"http://qinfo.clt.qq.com/group_member_tags/index.html?groupuin="+a,"\u7fa4\u6210\u5458\u6807\u7b7e\u7f16\u8f91","group_member_tags_"+a)},isVersionOk:function(){var a=b.getVersion().version;return!this.useVersionCtrl||a>=5317}}});

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>  
+      <CFConfigInfo Ver = "1" UpdateSign = "1" CFID = "2023" CFName = "粉红姚体" CFPreviewName = "2023_Preview" CF_Cx = "21" CF_Cy = "28" CFType = "Tpye_Alpha"/>                                                                 
+      <CFBackgroundList  nFrame = "3" nElapse = "700" CycNum = "1">
+          <Frame Pic0 = "xiewen18a.png" Pic1 = "xiewen18b.png" Pic2 = "xiewen18c.png" />
+          <Frame Pic0 = "xiewen18b.png" Pic1 = "xiewen18c.png" Pic2 = "xiewen18a.png" />
+          <Frame Pic0 = "xiewen18c.png" Pic1 = "xiewen18a.png" Pic2 = "xiewen18b.png" />
+      </CFBackgroundList>
+      <CFList nFrame = "3"  nElapse = "700" CycNum = "1" CycPos = "1">
+          <Frame FontType = "方正姚体" CFSize = "16" IsBold = "1" COLORREF0 = "000000" CFPostion0 = "0_1" />
+          <Frame FontType = "方正姚体" CFSize = "16" IsBold = "1" COLORREF0 = "000000" CFPostion0 = "0_1" />
+          <Frame FontType = "方正姚体" CFSize = "16" IsBold = "1" COLORREF0 = "000000" CFPostion0 = "0_1" />
+      </CFList>  
+</root>

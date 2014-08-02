@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>  
+      <CFConfigInfo Ver = "1" UpdateSign = "1" CFID = "2021" CFName = "斜纹字体" CFPreviewName = "2021_Preview" CF_Cx = "21" CF_Cy = "24" CFType = "Tpye_Alpha"/>                                                                 
+      <CFBackgroundList  nFrame = "3" nElapse = "700" CycNum = "1">
+          <Frame Pic0 = "xiewen18a.png" Pic1 = "xiewen18b.png" Pic2 = "xiewen18c.png" />
+          <Frame Pic0 = "xiewen18b.png" Pic1 = "xiewen18c.png" Pic2 = "xiewen18a.png" />
+          <Frame Pic0 = "xiewen18c.png" Pic1 = "xiewen18a.png" Pic2 = "xiewen18b.png" />
+      </CFBackgroundList>
+      <CFList nFrame = "3"  nElapse = "700" CycNum = "1" CycPos = "1">
+          <Frame FontType = "黑体" CFSize = "15" IsBold = "1" COLORREF0 = "000000" CFPostion0 = "0_4" />
+          <Frame FontType = "黑体" CFSize = "15" IsBold = "1" COLORREF0 = "000000" CFPostion0 = "0_4" />
+          <Frame FontType = "黑体" CFSize = "15" IsBold = "1" COLORREF0 = "000000" CFPostion0 = "0_4" />
+      </CFList>  
+</root>
