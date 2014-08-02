@@ -1,5 +1,6 @@
 // Created on Fri August 1 2014
 
+// Constants:
 const int ASV = 3;
 
 const int TSS = 15;	// TEST touch sensor
