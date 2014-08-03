@@ -18,9 +18,9 @@ int main()
 	set_servo_position(CLAW, 1050);
 	set_servo_position(ARM, 0);
 	set_servo_position(BACK, 1600);
-	//wait_for_light();
+	
+//wait_for_light(1);
 	shut_down_in(120);
-	while(digital(15) == 0);
 	set_servo_position(ARM, 1750);
 	clear_motor_position_counter(LM);
 	clear_motor_position_counter(RM);
@@ -39,7 +39,7 @@ int main()
 	bmd(RM);
 	set_servo_position(ARM, 0);
 	msleep(1500);
-	test();
+	
 	//get botguy
 	clear_motor_position_counter(LM);
 	clear_motor_position_counter(RM);
@@ -47,7 +47,7 @@ int main()
 	mtp(RM, RM_S, 325);
 	bmd(LM);
 	bmd(RM);
-	test();
+	
 	//face cube
 	clear_motor_position_counter(LM);
 	clear_motor_position_counter(RM);

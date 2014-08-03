@@ -7,7 +7,7 @@ const int CLAW = 0;
 const int ARM = 3;
 const int BACK = 1;
 
-const int LM_S = 750;
+const int LM_S = 765;
 const int RM_S = 1000;
 
 void test();
@@ -19,7 +19,7 @@ int main()
 	set_servo_position(ARM, 0);
 	set_servo_position(BACK, 1600);
 	//wait_for_light();
-	shut_down_in(120);
+	//shut_down_in(120);
 	while(digital(15) == 0);
 	set_servo_position(ARM, 1750);
 	clear_motor_position_counter(LM);
@@ -51,8 +51,8 @@ int main()
 	//face cube
 	clear_motor_position_counter(LM);
 	clear_motor_position_counter(RM);
-	mtp(LM, LM_S, 4000);
-	mtp(RM, RM_S, 4000);
+	mtp(LM, LM_S, 1500);
+	mtp(RM, RM_S, 1500);
 	bmd(LM);
 	bmd(RM);
 	test();
